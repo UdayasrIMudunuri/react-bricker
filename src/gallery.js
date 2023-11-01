@@ -32,11 +32,11 @@ function gallery() {
              </a>
              <div className="top-nav s-12 l-9"> 
                <ul className="top-ul right chevron">
-                 <li><a href="index.html">Home</a></li>
-                 <li><a href="about-us.html">About Us</a></li>
-                 <li><a href="services.html">Services</a></li>
-                 <li><a href="gallery.html">Gallery</a></li>
-                 <li><a href="contact.html">Contact</a></li>
+                 <li><a href="home.js">Home</a></li>
+                 <li><a href="about-us.js">About Us</a></li>
+                 <li><a href="services.js">Services</a></li>
+                 <li><a href="gallery.js">Gallery</a></li>
+                 <li><a href="contact.js">Contact</a></li>
                </ul>
              </div>
            </nav>

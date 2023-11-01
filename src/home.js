@@ -30,18 +30,20 @@ function Home() {
             {/* HEADER */}
             <header className="grid">
               {/* Top Navigation */}
-              <nav className="s-12 grid background-none background-primary-hightlight">
+              <nav className="s-12 grid" style={{ backgroundColor: '##1B2631 ' }}>
+  {/* Content of the navigation bar */}
+
                 {/* logo */}
-                <a href="index.html" className="m-12 l-3 padding-2x logo">
-                  <img src={require("./img/logo.svg")} />
+                <a href="home.js" className="m-12 l-3 padding-2x logo">
+                  <img src={require("./img/logo.jpg")} />
                 </a>
                 <div className="top-nav s-12 l-9"> 
                   <ul className="top-ul right chevron">
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="/about-us">About Us</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="/gallery">Gallery</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="home.js">Home</a></li>
+                    <li><a href="about-us.js">About Us</a></li>
+                    <li><a href="services.js">Services</a></li>
+                    <li><a href="gallery.js">Gallery</a></li>
+                    <li><a href="contact.js">Contact</a></li>
                   </ul>
                 </div>
               </nav>
@@ -154,7 +156,7 @@ function Home() {
               </div>
               <div className="s-12 m-9 l-3 padding-2x margin-bottom background-dark">
                 <h2 className="text-strong text-uppercase">Where We Are?</h2>
-                <img className="full-img" src={require("./img/map.svg")} alt="" />
+                <img className="full-img" src={require("./img/map.jpg")} alt="" />
               </div>
               <div className="s-12 m-9 l-3 padding-2x margin-bottom background-dark">
                 <h2 className="text-strong text-uppercase">Contact Us</h2>
