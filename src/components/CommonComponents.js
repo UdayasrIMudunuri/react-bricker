@@ -4,7 +4,7 @@ import React from 'react';
 
 function Header() {
   return (
-           <> 
+           <div> 
             {/*
         You can change the color scheme of the page. Just change the class of the <body> tag. 
         You can use this class: "primary-color-white", "primary-color-red", "primary-color-orange", "primary-color-blue", "primary-color-aqua", "primary-color-dark" 
@@ -18,12 +18,12 @@ function Header() {
             {/* HEADER */}
             <header className="grid">
               {/* Top Navigation */}
-              <nav className="s-12 grid" style={{ backgroundColor: '##1B2631 ' }}>
+              <nav className="s-12 grid" style={{ backgroundColor: '#002633 ' }}>
   {/* Content of the navigation bar */}
 
                 {/* logo */}
                 <a href="home.js" className="m-12 l-3 padding-2x logo">
-                  <img src={require("/workspace/react-bricker/src/img/logo.jpg")} />
+                  <img src={require("/workspace/react-bricker/src/img/logo.png")} />
                 </a>
                 <div className="top-nav s-12 l-9"> 
                   <ul className="top-ul right chevron">
@@ -35,7 +35,7 @@ function Header() {
                   </ul>
                 </div>
               </nav>
-            </header></>
+            </header></div>
   );}
 
 function Footer() {

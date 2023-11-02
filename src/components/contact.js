@@ -1,7 +1,7 @@
 import { Header, Footer, MetaTags } from './CommonComponents';
 function Contact() {
   return (
-    <>
+    <div style={{ backgroundColor: '#002633' }}>
       {/* HEADER */}
       <MetaTags />
                  <Header />
@@ -34,7 +34,7 @@ function Contact() {
         </section>
       </main>
       <Footer />   
-    </>
+    </div>
   );
 }
 export default Contact;

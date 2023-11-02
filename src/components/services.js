@@ -1,7 +1,7 @@
 import { Header, Footer, MetaTags } from './CommonComponents';
 function Services() {
     return (
-      <>
+      <div style={{ backgroundColor: '#002633' }}>
         <MetaTags />
                  <Header />
         {/* MAIN */}
@@ -56,7 +56,7 @@ function Services() {
         </main>
         {/* FOOTER */}
         <Footer />                                                               
-      </>
+      </div>
     );
   }
   export default Services;

@@ -1,7 +1,7 @@
 import { Header, Footer, MetaTags } from './CommonComponents';
 function Gallery() {
   return (
-    <>
+    <div style={{ backgroundColor: '#002633' }}>
     <MetaTags />
                  <Header />
       {/* MAIN */}
@@ -26,7 +26,7 @@ function Gallery() {
       </main>
       {/* FOOTER */}
       <Footer />                                                             
-    </>
+    </div>
   );
 }
 export default Gallery;

@@ -2,22 +2,18 @@ import './css/components.css';
 import './css/icons.css';
 import './css/responsee.css';
 import './css/template-style.css';
-import { Header, Footer, MetaTags } from './components/CommonComponents';
+import { Footer, MetaTags } from './components/CommonComponents';
 
 
 function Home() {
   return (  
-          <div>
+           <div style={{ backgroundColor: '#002633' }}>
             <MetaTags />
        
             <header className="grid">
-              {/* Top Navigation */}
-              <nav className="s-12 grid" style={{ backgroundColor: '##1B2631 ' }}>
-  {/* Content of the navigation bar */}
-
-                {/* logo */}
+              <nav className="s-12 grid" style={{ backgroundColor: '#002633' }}>
                 <a href="home.js" className="m-12 l-3 padding-2x logo">
-                  <img src={require("/workspace/react-bricker/src/img/logo.jpg")} />
+                  <img src={require("/workspace/react-bricker/src/img/logo.png")} />
                 </a>
                 <div className="top-nav s-12 l-9"> 
                   <ul className="top-ul right chevron">
@@ -30,8 +26,6 @@ function Home() {
                 </div>
               </nav>
             </header>
-              /* Top Navigation */
-                /* logo */
             {/* MAIN */}
             <main role="main">
               {/* TOP SECTION */}

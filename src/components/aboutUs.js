@@ -1,7 +1,7 @@
 import { Header, Footer, MetaTags } from './CommonComponents';
 function About_us() {
   return  (
-    <>
+    <div style={{ backgroundColor: '#002633' }}>
        <MetaTags />
                  <Header />
       {/* MAIN */}
@@ -84,7 +84,7 @@ function About_us() {
       </main>
       {/* FOOTER */}
       <Footer />                                                            
-    </>
+    </div>
   );
 }
 export default About_us;
