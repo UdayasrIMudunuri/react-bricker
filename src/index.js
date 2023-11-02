@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Home from './home';
-import Contact from './contact';
-import About_us from './aboutUs';
-import Gallery from './gallery';
-import Services from './services';
+import Contact from './components/contact';
+import About_us from './components/aboutUs';
+import Gallery from './components/gallery';
+import Services from './components/services';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,11 +15,11 @@ root.render(
      <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/aboutUs" element={<About_us />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="home" element={<Home />} />
+        <Route path="/components/contact" element={<Contact />} />
+        <Route path="/components/aboutUs" element={<About_us />} />
+        <Route path="/components/gallery" element={<Gallery />} />
+        <Route path="/components/services" element={<Services />} />
       </Routes>
     </Router>
   </React.StrictMode>
