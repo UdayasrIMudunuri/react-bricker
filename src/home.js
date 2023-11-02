@@ -39,11 +39,11 @@ function Home() {
                 </a>
                 <div className="top-nav s-12 l-9"> 
                   <ul className="top-ul right chevron">
-                    <li><a href="home.js">Home</a></li>
-                    <li><a href="about-us.js">About Us</a></li>
-                    <li><a href="services.js">Services</a></li>
-                    <li><a href="gallery.js">Gallery</a></li>
-                    <li><a href="contact.js">Contact</a></li>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/aboutUs">About Us</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
+                    <li><a href="/contact">Contact</a></li>
                   </ul>
                 </div>
               </nav>

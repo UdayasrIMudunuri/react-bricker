@@ -1,4 +1,4 @@
-function services() {
+function Services() {
     return (
       <div>
         <meta charSet="UTF-8" />
@@ -28,12 +28,12 @@ function services() {
           <nav className="s-12 grid background-none background-primary-hightlight">
             {/* logo */}
             <a href="index.html" className="m-12 l-3 padding-2x logo">
-              <img src={require("./img/logo.svg")} />
+              <img src={require("./img/logo.jpg")} />
             </a>
             <div className="top-nav s-12 l-9"> 
               <ul className="top-ul right chevron">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -102,7 +102,7 @@ function services() {
           </div>
           <div className="s-12 m-9 l-3 padding-2x margin-bottom background-dark">
             <h2 className="text-strong text-uppercase">Where We Are?</h2>
-            <img className="full-img" src={require("./img/map.svg")} alt="" />
+            <img className="full-img" src={require("./img/map.jpg")} alt="" />
           </div>
           <div className="s-12 m-9 l-3 padding-2x margin-bottom background-dark">
             <h2 className="text-strong text-uppercase">Contact Us</h2>
@@ -120,3 +120,4 @@ function services() {
       </div>
     );
   }
+  export default Services;
