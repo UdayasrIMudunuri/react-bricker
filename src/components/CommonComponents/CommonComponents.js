@@ -1,20 +1,10 @@
-// CommonComponents.js
 
 import React from 'react';
+
 
 function Header() {
   return (
            <div> 
-            {/*
-        You can change the color scheme of the page. Just change the class of the <body> tag. 
-        You can use this class: "primary-color-white", "primary-color-red", "primary-color-orange", "primary-color-blue", "primary-color-aqua", "primary-color-dark" 
-        */}
-            {/*
-        Each element is able to have its own background or text color. Just change the class of the element.  
-        You can use this class: 
-        "background-white", "background-red", "background-orange", "background-blue", "background-aqua", "background-primary" 
-        "text-white", "text-red", "text-orange", "text-blue", "text-aqua", "text-primary"
-        */}
             {/* HEADER */}
             <header className="grid">
               {/* Top Navigation */}
@@ -23,7 +13,7 @@ function Header() {
 
                 {/* logo */}
                 <a href="home.js" className="m-12 l-3 padding-2x logo">
-                  <img src={require("/workspace/react-bricker/src/img/logo.png")} />
+                  <img src={require("/workspace/react-bricker/src/img/logo.png")} alt="" />
                 </a>
                 <div className="top-nav s-12 l-9"> 
                   <ul className="top-ul right chevron">
@@ -43,7 +33,7 @@ function Footer() {
     <footer className="grid">
     {/* Footer - top */}
     {/* Image*/}
-    <div className="s-12 l-3 m-row-3 margin-bottom background-image" style={{backgroundImage: 'url(/workspace/react-bricker/src/img/img-04.jpg)'}} />
+    <div className="s-12 l-3 m-row-3 margin-bottom background-image"  style={{backgroundImage: 'url(img/img-04.jpg)'}} /> 
     <div className="s-12 m-9 l-3 padding-2x margin-bottom background-dark">
       <h2 className="text-strong text-uppercase">Who We Are?</h2>
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
@@ -74,13 +64,13 @@ function MetaTags() {
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Free responsive business website template</title>
-      <link rel="stylesheet" href="css/components.css" />
-      <link rel="stylesheet" href="css/icons.css" />
-      <link rel="stylesheet" href="css/responsee.css" />
+      <link rel="stylesheet" href="/workspace/react-bricker/src/css/components.css" />
+      <link rel="stylesheet" href="/workspace/react-bricker/src/css/icons.css" />
+      <link rel="stylesheet" href="/workspace/react-bricker/src/css/responsee.css" />
       <link rel="stylesheet" href="owl-carousel/owl.carousel.css" />
       <link rel="stylesheet" href="owl-carousel/owl.theme.css" />
       {/* CUSTOM STYLE */}      
-      <link rel="stylesheet" href="css/template-style.css" />
+      <link rel="stylesheet" href="/workspace/react-bricker/src/css/template-style.css" />
       <link href="https://fonts.googleapis.com/css?family=Barlow:100,300,400,700,800&subset=latin-ext" rel="stylesheet" />
     </>
   );

@@ -1,9 +1,17 @@
-import { Header, Footer, MetaTags } from './CommonComponents';
+// style dependencies
+import '/workspace/react-bricker/src/css/components.css';
+import '/workspace/react-bricker/src/css/icons.css';
+import '/workspace/react-bricker/src/css/responsee.css';
+import '/workspace/react-bricker/src/css/template-style.css';
+
+// sub-component dependencies
+import { Header, Footer, MetaTags } from './CommonComponents/CommonComponents';
+
 function Services() {
     return (
       <div style={{ backgroundColor: '#002633' }}>
         <MetaTags />
-                 <Header />
+        <Header />
         {/* MAIN */}
         <main role="main">
           {/* TOP SECTION */}
